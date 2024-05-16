@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <button id="btnScript1">Script 1</button>
+    <button id="btnScript1_1">Script 1.1</button>
+    <button id="btnScript2">Script 2</button>
+    <button id="btnScript3">Script 3</button>
+
+    <script src="script_1.js"></script>
+    <script src="script_1_1.js"></script>
+    <script src="script_2.js"></script>
+    <script src="script_3.js"></script>
+
+    <script>
+      document
+        .getElementById("btnScript1")
+        .addEventListener("click", function () {
+          mainScript1();
+        });
+
+      document
+        .getElementById("btnScript1_1")
+        .addEventListener("click", function () {
+          mainScript1_1();
+        });
+
+      document
+        .getElementById("btnScript1")
+        .addEventListener("click", function () {
+          mainScript2();
+        });
+
+      document
+        .getElementById("btnScript1")
+        .addEventListener("click", function () {
+          mainScript3();
+        });
+
+      document
+        .getElementById("btnScript1")
+        .addEventListener("click", function () {
+          mainScript4();
+        });
+    </script>
+  </body>
+</html>
